@@ -94,8 +94,8 @@ $(function(){
 	var imgBoxWid = docuWid*imgNum + 'px';
 	//console.log(docuWid);
 	
-	$("#section > .photobox .img").css({"width":imgBoxWid});
-	$("#section > .photobox .img img ").css({"width":docuWid});
+	$("#section > .photobox .imgbox .img").css({"width":imgBoxWid});
+	$("#section > .photobox .imgbox .img img ").css({"width":docuWid});
 /*	var imgMarWid = docuWid*0.05 + 'px';
 
 	$("#section > .photobox .img img ").css({"width":imgWid,"margin":"20px" + " " + imgMarWid});
