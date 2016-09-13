@@ -99,7 +99,7 @@ $(function(){
 /*	var imgMarWid = docuWid*0.05 + 'px';
 
 	$("#section > .photobox .img img ").css({"width":imgWid,"margin":"20px" + " " + imgMarWid});
-*/
+
 	var slider = {
 		//判断设备是否支持touch事件
 		touch:('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch,
@@ -172,9 +172,21 @@ $(function(){
 	};
 	
 	slider.init();
+*/
 
-
-
+	var ctrls = document.getElementById('icons').getElementsByClassName('ctrl');
+	var banner = Swipe(
+		document.getElementById('slider'),{
+		continuous: true,
+		disableScroll:false,
+		callback: function(pos) {
+			var i = ctrls.length;
+			while (i--) {
+			  ctrls[i].className = 'ctrl';
+			}
+			ctrls[pos].className = 'ctrl current';
+		}
+	});
 
 
 })
