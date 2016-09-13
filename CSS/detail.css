@@ -97,15 +97,16 @@
 	width:100%;
 	background-color:#FFF;
 	border:1px solid #dadada;
+}
+#section > .photobox .imgbox {
 	overflow:hidden;
 }
-
-#section > .photobox .img {
+#section > .photobox .imgbox .img {
 	position:relative;
 	left:0px;
 }
 
-#section > .photobox img {
+#section > .photobox .imgbox .img img {
 	float:left;
 }
 
