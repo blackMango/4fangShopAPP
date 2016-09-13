@@ -98,15 +98,15 @@
 	background-color:#FFF;
 	border:1px solid #dadada;
 }
-#section > .photobox .imgbox {
+#section > .photobox .swipe {
 	overflow:hidden;
 }
-#section > .photobox .imgbox .img {
+#section > .photobox .swipe .img {
 	position:relative;
 	left:0px;
 }
 
-#section > .photobox .imgbox .img img {
+#section > .photobox .swipe .img img {
 	float:left;
 }
 
