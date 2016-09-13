@@ -100,6 +100,7 @@
 }
 #section > .photobox .swipe {
 	overflow:hidden;
+	visibility: hidden;
 }
 #section > .photobox .swipe .img {
 	position:relative;
