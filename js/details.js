@@ -110,7 +110,7 @@ $(function(){
 			index:0,     //显示元素的索引
 			slider:this.slider,     //this为slider对象
 			icons:document.getElementById('icons'),
-			icon:icons.getElementsByClassName('ctrl'),
+			icon:this.icons.getElementsByClassName('ctrl'),
 			handleEvent:function(event){
 				var self = this;     //this指events对象
 				if(event.type == 'touchstart'){
