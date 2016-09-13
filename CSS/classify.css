@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+#section > #aside {
+	width:30%;
+	float:left;
+	border-bottom:1px solid #dadada;
+}
+#section > #aside li {
+	width:100%;
+	font-size:14px;
+	text-align:center;
+	line-height:36px;
+	color:#323232;
+	border:1px solid #dadada;
+	border-bottom:none;
+}
+.current {
+	color:#cc4292 !important;
+	background-color:#FFF;
+	border-right:none !important;
+}
+#section > .menu {
+	width:70%;
+	float:right;
+	background-color:#FFF;
+	padding:15px 0px;
+}
+#section > .menu figure {
+	width:33%;
+	float:left;
+	margin:0px 0px 10px;
+}
+#section > .menu figure h3 {
+	margin:5px 0px 0px;
+	font-size:14px;
+	text-align:center;
+	line-height:20px;
+	color:#646464;
+}
+#section > .menu figure h4 {
+	font-size:12px;
+	text-align:center;
+	font-weight:normal;
+	color:#323232;
+}
+#section > .menu figure img {
+	width:80%;
+	margin:0px 10%;
+	display:inline-block;
+}
+#section > .menu > .content > img {
+	display:inline-block;
+	width:90%;
+	margin:30px 5% 20px;
+}
+
+
+
+
+
+
+@media (min-width:375px) and (max-width:480px) {
+	#section > #aside li,#section > .menu figure h3 {
+		font-size:16px;
+	}
+	#section > .menu figure h4 {
+		font-size:14px;
+	}
+}
+@media (min-width:481px) and (max-width:621px) {
+	#section > #aside li,#section > .menu figure h3 {
+		font-size:18px;
+	}
+	#section > .menu figure h4 {
+		font-size:16px;
+	}
+}
+@media (min-width:622px) {
+	#section > #aside li,#section > .menu figure h3 {
+		font-size:20px;
+	}
+	#section > .menu figure h4 {
+		font-size:18px;
+	}
+}
+
+
+

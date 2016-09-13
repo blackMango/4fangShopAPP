@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#section {
+	margin:20px 0px 0px;
+}
+#section > h2 {
+	width:94%;
+	margin:10px 3%;
+	border:1px solid #cc4292;
+	text-align:center;
+	font-size:14px;
+	color:#000;
+	line-height:36px;
+	font-weight:normal;
+}
+#section > h2 span {
+	font-size:14px;
+	color:#cc4292 ;
+	font-weight:bold;
+}
+
+hr {
+	border-bottom:none;
+	border-top:1px solid #dadada;
+	margin:0px;
+}
+
+#section > .set figure {
+	background-color:#FFF;
+	padding:10px 10px;
+	cursor:pointer;
+}
+
+#section > .set figure .pay {
+	margin:0px 8px;
+	float:left;
+}
+#section > .set figure figcaption {
+	line-height:26px;
+	color:#000;
+	font-size:14px;
+	margin:4px 0px 0px;
+}
+#section > .set figure span {
+	line-height:26px;
+	color:#646464;
+	font-size:12px;
+	margin:0px 0px 4px;
+}
+#section > .set figure .rightimg {
+	float:right;
+	height:30px;
+	margin:15px 10px;
+}
+#section > .set figure .img {
+	float:left;
+	height:40px;
+	margin:10px 0px;
+}
+
+@media (min-width:375px) and (max-width:480px) {
+	#section > h2,#section > h2 span,#section > .set figure figcaption {
+		font-size:16px;
+	}
+	#section > .set figure span {
+		font-size:18px;
+	}
+}
+
+@media (min-width:481px) and (max-width:621px) {
+	#section > h2,#section > h2 span,#section > .set figure figcaption {
+		font-size:18px;
+	}
+	#section > .set figure span {
+		font-size:16px;
+	}
+}
+
+@media (min-width:622px) {
+	#section > h2,#section > h2 span,#section > .set figure figcaption {
+		font-size:20px;
+	}
+	#section > .set figure span {
+		font-size:18px;
+	}
+}
+
+
+
+
+
+
+
+

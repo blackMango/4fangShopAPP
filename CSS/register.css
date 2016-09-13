@@ -1,0 +1,195 @@
+﻿@charset "utf-8";
+/* CSS Document */
+#section {
+	padding:10px 0px 0px;
+}
+#section > .phone,#section > .acttest,#section > .test,#section > .password {
+	width:94%;
+	margin:6px 3%;
+}
+#section > .phone h4,#section > .acttest h4,#section > .test h4,#section > .password h4 {
+	width:24%;
+	float:left;
+	line-height:36px;
+	color:#000;
+	font-size:14px;
+	font-weight:normal;
+	text-align:justify;
+	text-align-last:justify;
+}
+#section > .password span {
+	line-height:36px;
+	color:rgba(0,0,0,0);
+	font-size:14px;
+}
+#section > .phone input[type = tel],#section > .password input[type = password] {
+	display:inline-block;
+	width:76%;
+	float:right;
+	border:1px solid #dadada;
+	line-height:36px;
+	height:36px;
+	color:#646464;
+	font-size:14px;
+	padding:0px 4px;
+}
+
+#section > .acttest input[type = tel] {
+	display:inline-block;
+	width:39%;
+	float:left;
+	border:1px solid #dadada;
+	line-height:36px;
+	height:36px;
+	color:#646464;
+	font-size:14px;
+	padding:0px 4px;
+}
+#section > .acttest span {
+	width:37%;
+	line-height:36px;
+	height:36px;
+	color:#323232;
+	font-size:14px;
+	background-color:#eee;
+	text-align:center;
+	float:right;
+}
+#section > .test input[type = tel] {
+	display:inline-block;
+	width:39%;
+	float:left;
+	border:1px solid #dadada;
+	border-right:none;
+	line-height:36px;
+	height:36px;
+	color:#646464;
+	font-size:14px;
+	padding:0px 4px;
+}
+#section > .test span {
+	width:25%;
+	line-height:36px;
+	height:36px;
+	color:#000;
+	font-size:16px;
+	background-color:#eee;
+	text-align:center;
+	float:left;
+	border-top:1px solid #dadada;
+	border-bottom:1px solid #dadada;
+	font-family:"迷你简菱心";
+	letter-spacing:4px;
+	font-weight:bold;
+}
+#section > .test .img {
+	float:left;
+	width:12%;
+	height:36px;
+	border:1px solid #dadada;
+	border-left:none;
+}
+#section > .test .img img {
+	height:24px;
+	margin:5px auto;
+	cursor:pointer;
+}
+#section > .agree {
+	width:94%;
+	margin:0px 3%;
+}
+h6 {
+	line-height:30px;
+	color:#646464;
+	font-size:12px;
+	float:right;
+}
+h6 > a {
+	color:#cc4292;
+	font-size:12px;
+}
+#section > .agree input[type = checkbox] {
+	width:14px;
+	height:14px;
+	float:left;
+	margin:8px 0px;
+}
+#section > .agree h5 {
+	line-height:30px;
+	color:#646464;
+	font-size:12px;
+	float:left;
+	margin:0px 0px 0px 4px;
+	font-weight:normal;
+}
+#section > .agree span {
+	color:#cc4292;
+	line-height:30px;
+	font-size:12px;
+}
+
+@media (min-width:375px) and (max-width:480px) {
+	#section > .phone h4, #section > .acttest h4, #section > .test h4, #section > .password h4,#section > .password span,#section > .phone input[type = tel], #section > .password input[type = password],#section > .acttest input[type = tel],#section > .acttest span,#section > .test input[type = tel] {
+		font-size:16px;
+		}
+	h6,h6 > a,#section > .agree h5,#section > .agree span {
+		font-size:14px;
+	}
+	#section > .test span {
+		font-size:18px;
+	}
+	#section > .phone h4, #section > .acttest h4, #section > .test h4, #section > .password h4 {
+		width:23%;
+	}
+	#section > .phone input[type = tel], #section > .password input[type = password] {
+		width:77%;
+	}
+	#section > .acttest input[type = tel],#section > .test input[type = tel]{
+		width:40%;
+	}
+}
+@media (min-width:481px) and (max-width:621px) {
+	#section > .phone h4, #section > .acttest h4, #section > .test h4, #section > .password h4,#section > .password span,#section > .phone input[type = tel], #section > .password input[type = password],#section > .acttest input[type = tel],#section > .acttest span,#section > .test input[type = tel] {
+		font-size:18px;
+		}
+	h6,h6 > a,#section > .agree h5,#section > .agree span {
+		font-size:16px;
+	}
+	#section > .test span {
+		font-size:20px;
+	}
+	#section > .phone h4, #section > .acttest h4, #section > .test h4, #section > .password h4 {
+		width:20%;
+	}
+	#section > .phone input[type = tel], #section > .password input[type = password] {
+		width:80%;
+	}
+	#section > .acttest input[type = tel],#section > .test input[type = tel]{
+		width:43%;
+	}
+}
+@media (min-width:622px) {
+	#section > .phone h4, #section > .acttest h4, #section > .test h4, #section > .password h4,#section > .password span,#section > .phone input[type = tel], #section > .password input[type = password],#section > .acttest input[type = tel],#section > .acttest span,#section > .test input[type = tel] {
+		font-size:20px;
+		}
+	h6,h6 > a,#section > .agree h5,#section > .agree span {
+		font-size:18px;
+	}
+	#section > .test span {
+		font-size:22px;
+	}
+	#section > .phone h4, #section > .acttest h4, #section > .test h4, #section > .password h4 {
+		width:18%;
+	}
+	#section > .phone input[type = tel], #section > .password input[type = password] {
+		width:82%;
+	}
+	#section > .acttest input[type = tel],#section > .test input[type = tel]{
+		width:45%;
+	}
+}
+
+
+
+
+

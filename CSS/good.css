@@ -1,0 +1,211 @@
+@charset "utf-8";
+/* CSS Document */
+
+#section .shopbox {
+	margin:0px 0px 10px;
+}
+#section hgroup {
+	width:100%;
+	height:40px;
+	background-color:#eaeaea;
+	border-bottom:1px solid #dadada;
+	border-top:1px solid #dadada;
+}
+#section hgroup > input[type = checkbox] {
+	width:14px;
+	height:14px;
+	float:left;
+	margin:12px 10px;
+}
+#section hgroup h2 {
+	float:left;
+	line-height:40px;
+	color:#000;
+	font-size:14px;
+	font-weight:normal;
+}
+#section hgroup > h5 {
+	float:right;
+	line-height:40px;
+	color:#646464;
+	font-size:14px;
+	margin:0px 10px;
+	font-weight:normal;
+}
+#section hgroup > h5:nth-child(4) {
+	display:none;
+}
+#section figure {
+	background-color:#FFF;
+	border-bottom:1px solid #dadada;
+}
+#section figure > .check {
+	float:left;
+}
+#section figure > .check input[type = checkbox] {
+	display:block;
+	width:14px;
+	height:14px;
+	margin:43px 8px;
+}
+#section figure > .img {
+	float:left;
+}
+#section figure > .img img {
+	width:80px;
+	margin:10px 8px 10px 0px;
+	border-radius:4px;
+	border:1px solid #dadada;
+	padding:10%;
+}
+#section figure > figcaption {
+	float:left;
+	margin:10px 0px;
+	width:55%;
+}
+#section figure > figcaption h3 {
+	font-size:14px;
+	line-height:16px;
+	height:32px;
+	color:#323232;
+ 	overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+#section figure > figcaption input[type = number] {
+	border:1px solid #dadada;
+	width:80px;
+	line-height:18px;
+	text-align:center;
+	font-size:12px;
+	margin:4px 0px;
+}
+#section figure > figcaption h4 {
+	font-size:12px;
+	color:#646464;
+	line-height:18px;
+	font-weight:normal;
+}
+#section figure > figcaption span{
+	font-size:16px;
+	color:#cc4292;
+	line-height:18px;
+}
+#section figure > .delimg {
+	background-color:rgba(238,198,221,0.6);
+	float:right;
+	display:none;
+}
+#section figure > .delimg img {
+	height:30px;
+	margin:35px auto;
+}
+#section > .cont {
+	border-top:1px solid #dadada;
+	border-bottom:1px solid #dadada;
+	background-color:#FFF;
+}
+#section > .cont h3 {
+	font-size:14px;
+	line-height:30px;
+	color:#cc4292;
+	font-weight:normal;
+	float:right;
+	margin:0px 10px 0px 0px;
+}
+#section > .cont h4 {
+	font-size:12px;
+	line-height:32px;
+	color:#646464;
+	font-weight:normal;
+	float:right;
+	margin:0px 1px;
+}
+#section > .cont span {
+	display:inline-block;
+	font-size:14px;
+	line-height:30px;
+	color:#323232;
+	margin:0px 1px;
+}
+@media (min-width:375px) and (max-width:480px) {
+	#section hgroup h2,#section > .cont h3,#section > .cont span,#section hgroup > h5,#section figure > figcaption span {
+		font-size:16px;
+	}
+	#section > .cont h4,#section figure > figcaption h4 {
+		font-size:14px;
+	}
+	#section figure > figcaption h3 {
+		font-size:16px;
+		line-height:20px;
+		height:40px;
+	}
+	#section figure > .check input[type = checkbox] {
+		margin:47px 10px;
+	}
+	#section figure > .img img {
+		width:88px;
+		margin:10px 10px 10px 0px;
+	}
+	#section figure > .delimg img {
+		margin:39px auto;
+	}
+}
+@media (min-width:481px) and (max-width:621px) {
+	#section hgroup h2,#section > .cont h3,#section > .cont span,#section hgroup > h5,#section figure > figcaption span {
+		font-size:18px;
+	}
+	#section > .cont h4,#section figure > figcaption h4 {
+		font-size:16px;
+	}
+	#section figure > .check input[type = checkbox] {
+		margin:53px 10px;
+	}
+	#section figure > .img img {
+		width:100px;
+		margin:10px 10px 10px 0px;
+	}
+	#section figure > figcaption h3 {
+		font-size:18px;
+		line-height:22px;
+		height:44px;
+	}
+	#section figure > figcaption input[type = number] {
+		margin:8px auto;
+	}
+	#section figure > .delimg img {
+		margin:45px auto;
+	}
+}
+@media (min-width:622px) {
+	#section hgroup h2,#section > .cont h3,#section > .cont span,#section hgroup > h5,#section figure > figcaption span {
+		font-size:20px;
+	}
+	#section > .cont h4,#section figure > figcaption h4 {
+		font-size:18px;
+	}
+	#section figure > .check input[type = checkbox] {
+		margin:63px 10px;
+	}
+	#section figure > .img img {
+		width:120px;
+		margin:10px 10px 10px 0px;
+	}
+	#section figure > figcaption h3 {
+		font-size:20px;
+		line-height:24px;
+		height:48px;
+	}
+	#section figure > figcaption input[type = number] {
+		margin:12px auto;
+	}
+	#section figure > .delimg img {
+		margin:55px auto;
+	}
+}
+
+
+
+

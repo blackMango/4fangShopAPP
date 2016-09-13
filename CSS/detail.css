@@ -1,0 +1,492 @@
+@charset "utf-8";
+/* CSS Document */
+.fix {
+	position:fixed;
+	top:0%;  
+	left:0%;  
+}
+#bg{ 
+	display:none;  
+	position:fixed;  
+	top:0%;  
+	left:0%;  
+	width:100%;
+	height:100%;
+	background-color:#000;  
+	z-index:999;  
+	-moz-opacity:0.6;
+	opacity:0.6;  
+	filter:alpha(opacity=60);
+}
+
+.joingood {
+	width:100%;
+	padding:20px 10px;
+	background-color:#FFF;
+	position:fixed;
+	bottom:0px;
+	z-index:9999;
+	margin-bottom:-350px;
+}
+.joingood > img {
+	position:absolute;
+	top:10px;
+	right:10px;
+	cursor:pointer;
+}
+.joingood > .number,.joingood > .colorclassify,.joingood > .pay,.joingood > .numb {
+	line-height:28px;
+	margin:5px 10px;
+	font-size:14px;
+	color:#323232;
+}
+.joingood > .number input {
+	text-align:center;
+	width:80px;
+	height:28px;
+	border:1px solid #dadada;
+	font-size:14px;
+}
+.joingood > .pay span {
+	display:inline-block;
+	font-size:14px;
+	color:#cc4292;
+	line-height:28px;
+}
+.joingood > .numb span {
+	font-size:14px;
+	color:#000;
+	line-height:28px;
+}
+.joingood > .colorclassify span {
+	display:inline-block;
+	font-size:14px;
+	padding:0px 20px;
+	height:28px;
+	border:1px solid #dadada;
+	color:#000;
+	display:inline-block;
+	margin:5px;
+	line-height:28px;
+	text-align:center;
+	cursor:pointer;
+	border-radius:4px;
+}
+.bgcolor {
+	background-color:#cc4292;
+	color:#fff !important;
+}
+.joingood .button {
+	width:50%;
+	margin:20px 25%;
+	background-color:#cc4292;
+	border-radius:4px;
+	color:#FFF;
+	line-height:36px;
+	font-size:16px;
+	text-align:center;
+}
+.joingood .button:active {
+	background-color:#c90797;
+}
+
+
+
+#section > .photobox {
+	position:relative;
+	width:100%;
+	background-color:#FFF;
+	border:1px solid #dadada;
+	overflow:hidden;
+}
+
+#section > .photobox .img {
+	position:relative;
+	left:0px;
+}
+
+#section > .photobox img {
+	float:left;
+}
+
+#section > .photobox .icons {
+	height:20px;
+	position:absolute;
+	bottom:0px;
+	left:50%;
+	z-index:99px;
+	margin-left:-45px;
+}
+#section > .photobox .icons .ctrl {
+	width:8px;
+	height:8px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	background-color:#e6c2db;
+	border:1px solid #cc4292;
+	margin:6px 5px;
+	float:left;
+	opacity:0.8;
+	cursor:pointer;
+}
+#section > .photobox .current {
+	background-color:#cc4292 !important;
+}
+.img-anim {
+	-webkit-transition:left .2s linear;
+}
+
+#section > .namebox h2 {
+	width:70%;
+	float:left;
+	font-size:14px;
+	color:#000;
+	line-height:24px;
+	margin:10px;
+}
+#section > .namebox figure {
+	width:20%;
+	float:right;
+	margin:10px 0px;
+}
+#section > .namebox figure img {
+	margin:5px auto;
+}
+#section > .namebox figure h4 {
+	text-align:center;
+	font-size:14px;
+	color:#cc4292;
+	line-height:20px;
+	font-weight:normal;
+}
+#section > .pay h3,#section > .num h3 {
+	float:left;
+	font-size:14px;
+	color:#646464;
+	line-height:20px;
+	font-weight:normal;
+	margin:0px 0px 10px 10px;
+}
+#section > .pay mark{
+	float:left;
+	font-size:16px;
+	color:#cc4292;
+	line-height:20px;
+	background-color:rgba(0,0,0,0);
+	margin:0px 0px 10px;
+}
+#section > .pay del,#section > .num h5 {
+	float:left;
+	font-size:14px;
+	color:#909090;
+	line-height:20px;
+	margin:0px 5px 10px;
+	font-weight:normal;
+}
+#section > .num input {
+	float:left;
+	text-align:center;
+	line-height:20px;
+	width:100px;
+	height:20px;
+	background-color:#fefefe;
+	border:1px solid #dadada;
+	margin:0px 0px 10px;
+}
+#section > hr {
+	border:1px dashed #dadada;
+	border-top:none;
+}
+#section > hgroup {
+	margin:10px;
+}
+#section > hgroup h3 {
+	font-size:14px;
+	color:#323232;
+	line-height:24px;
+	font-weight:normal;
+}
+#section > .ad {
+	padding:8px 0.5%;
+	margin:0px 0px 20px;
+	background-color:#fefefe;
+	border:1px solid #dadada;
+}
+#section > .ad dl {
+	width:33%;
+	float:left;
+}
+#section > .ad dl dd {
+	font-size:16px;
+	line-height:24px;
+	text-align:center;
+	color:#000;
+}
+#section > .ad dl dd:nth-child(2) {
+	color:#cc4292;
+	font-size:14px;
+
+}
+
+.fix {
+	width:100%;
+	position:fixed;
+	top:0px;
+	left:0px;
+}
+#section > #nav a {
+	display:inline-block;
+	width:33.33%;
+	border:1px solid #dadada;
+	font-size:16px;
+	text-align:center;
+	line-height:40px;
+	color:#646464;
+	float:left;
+	background-color:#fff;
+}
+.curcolor {
+	background-color:#cc4292 !important;
+	color:#FFF !important;
+}
+#section > .guige {
+	background-color:#FFF;
+	padding:10px 0px 10px;
+}
+#section > .guige h2,#section > .detail h2,#section > .say h2 {
+	background-color:#dadada;
+	color:#323232;
+	font-size:16px;
+	line-height:32px;
+	padding:0px 0px 0px 10px;
+	border:1px solid #bababa;
+}
+#section > .guige dt {
+	padding:0px 10px;
+	margin:14px 0px;
+	line-height:24px;
+	border-top:1px solid #dadada;
+	border-bottom:1px solid #dadada;
+	font-size:14px;
+	color:#323232;
+}
+#section > .guige dd {
+	padding:0px 15px 0px 60px;
+	line-height:24px;
+	font-size:14px;
+	color:#646464;
+}
+#section > .guige dd span {
+	color:#000;
+	font-size:14px;
+}
+#section > .detail h1 {
+	font-size:18px;
+	color:#323232;
+	width:80%;
+	text-align:center;
+	line-height:26px;
+	margin:15px 10%;
+}
+#section > .detail > .img img {
+	width:50%;
+	float:left;
+}
+#section > .detail > .phodet img {
+	width:100%;
+}
+#section > .say .nav dl {
+	float:left;
+	width:20%;
+	padding:8px 0px;
+}
+#section > .say .nav dl dd {
+	color:#646464;
+	font-size:14px;
+	line-height:20px;
+	text-align:center;
+}
+#section > .say .nav .curcol dd {
+	color:#cc4292;
+}
+#section > .say .sayer{
+	background-color:#FFF;
+}	
+
+#section > .say .sayer figure {
+	border-bottom:1px solid #dadada;
+	border-top:1px solid #dadada;
+	padding:0px 10px;
+}
+#section > .say .sayer figure img:nth-child(1) {
+	float:left;
+	height:30px;
+	margin:5px 0px;
+}
+#section > .say .sayer figure img:nth-child(3) {
+	float:left;
+	height:20px;
+	margin:10px 0px;
+}
+#section > .say .sayer figure h3 {
+	float:left;
+	line-height:40px;
+	font-size:16px;
+	margin:0px 8px;
+}
+#section > .say .sayer .img {
+	padding:10px;
+}
+#section > .say .sayer .img img {
+	float:left;
+	height:14px;
+	margin:0px 2px;
+}
+#section > .say .sayer p {
+	font-size:14px;
+	color:#000;
+	line-height:24px;
+	padding:5px 10px 10px;
+}
+#section > .say .sayer .photo {
+	margin:0px 4%;
+}
+#section > .say .sayer .photo .phot {
+	width:48%;
+	border:1px solid #dadada;
+	background-color:#FFF;
+	float:left;
+	margin:5px 1%;
+}
+#section > .say .sayer .photo img {
+	width:84%;
+	margin:8%;
+}
+#section > .say .sayer hgroup {
+	padding:10px 10px 0px;
+}
+#section > .say .sayer hgroup h6 {
+	font-size:14px;
+	font-weight:normal;
+	color:#646464;
+	float:left;
+	margin:0px 30px 0px 0px;
+	line-height:24px;
+}
+#section > .say .sayer h5 {
+	font-size:14px;
+	font-weight:normal;
+	color:#646464;
+	line-height:24px;
+	padding:0px 10px 10px;
+}
+#section > .say .sayer .recover {
+	margin:0px 10px 10px;
+	background-color:#ffecfa;
+	padding:8px;
+}
+#section > .say .sayer .recover h4 {
+	font-size:12px;
+	line-height:24px;
+	float:left;
+	color:#cc4292;
+	font-weight:normal;
+}
+#section > .say .sayer .recover span {
+	font-size:12px;
+	line-height:24px;
+	color:#646464;
+}
+#section > .say hr {
+	border-bottom:none;
+	border-top:1px solid #dadada;
+	margin:0px 0px 10px;
+}
+#recom {
+	padding:10px;
+}
+#recom h2 {
+	line-height:30px;
+	font-size:16px;
+	font-weight:normal;
+}
+#recom figure {
+	width:31.33%;
+	margin:0px 1% 10px;
+	float:left;
+	border:1px solid #dadada;
+	background-color:#FFF;	
+}
+#recom figure img {
+	width:80%;
+	margin:10%;
+}
+#recom figure h5 {
+	text-align:center;
+	color:#323232;
+	font-size:16px;
+	border-top:1px solid #dadada;
+	line-height:30px;
+}
+
+
+@media (min-width:375px) and (max-width:480px) {
+	#section > #nav a,.joingood .button,#section > .namebox h2,#section > .pay mark,#section > .ad dl dd,#section > .guige h2, #section > .detail h2, #section > .say h2,#section > .say .sayer figure h3,#recom h2,#recom figure h5 {
+		font-size:18px;
+	}
+	.joingood > .number,.joingood > .colorclassify,.joingood > .pay,.joingood > .numb,.joingood > .number input,.joingood > .pay span,.joingood > .numb span,#section > .namebox figure h4,#section > .pay h3, #section > .num h3,#section > .pay del, #section > .num h5,#section > hgroup h3,#section > .ad dl dd:nth-child(2),#section > .guige dt,#section > .guige dd,#section > .guige dd span,#section > .say .nav dl dd,#section > .say .sayer p,#section > .say .sayer hgroup h6,#section > .say .sayer h5,.joingood > .colorclassify span  {
+		font-size:16px;
+	}
+	#section > .say .sayer .recover h4,#section > -.say .sayer .recover span {
+		font-size:14px;
+	}
+
+}
+@media (min-width:481px) and (max-width:621px) {
+	#section > #nav a,.joingood .button,#section > .namebox h2,#section > .pay mark,#section > .ad dl dd,#section > .guige h2, #section > .detail h2, #section > .say h2,#section > .say .sayer figure h3,#recom h2,#recom figure h5 {
+		font-size:20px;
+	}
+	.joingood > .number,.joingood > .colorclassify,.joingood > .pay,.joingood > .numb,.joingood > .number input,.joingood > .pay span,.joingood > .numb span,#section > .namebox figure h4,#section > .pay h3, #section > .num h3,#section > .pay del, #section > .num h5,#section > hgroup h3,#section > .ad dl dd:nth-child(2),#section > .guige dt,#section > .guige dd,#section > .guige dd span,#section > .say .nav dl dd,#section > .say .sayer p,#section > .say .sayer hgroup h6,#section > .say .sayer h5,.joingood > .colorclassify span {
+		font-size:18px;
+	}
+	#section > .say .sayer .recover h4,#section > .say .sayer .recover span {
+		font-size:16px;
+	}
+	#section > .namebox h2,#section > .guige dt,#section > .ad dl dd,#section > .detail h1,#section > .guige dd {
+		line-height:28px;
+	}
+	#section > .say .sayer p,#section > .say .sayer hgroup h6,#section > .say .sayer h5,#section > .say .nav dl dd {
+		line-height:26px;
+	}
+}
+
+
+@media (min-width:622px) {
+	#section > #nav a,.joingood .button,#section > .namebox h2,#section > .pay mark,#section > .ad dl dd,#section > .guige h2, #section > .detail h2, #section > .say h2,#section > .say .sayer figure h3,#recom h2,#recom figure h5 {
+		font-size:22px;
+	}
+	.joingood > .number,.joingood > .colorclassify,.joingood > .pay,.joingood > .numb,.joingood > .number input,.joingood > .pay span,.joingood > .numb span,#section > .namebox figure h4,#section > .pay h3, #section > .num h3,#section > .pay del, #section > .num h5,#section > hgroup h3,#section > .ad dl dd:nth-child(2),#section > .guige dt,#section > .guige dd,#section > .guige dd span,#section > .say .nav dl dd,#section > .say .sayer p,#section > .say .sayer hgroup h6,#section > .say .sayer h5,.joingood > .colorclassify span {
+		font-size:20px;
+	}
+	#section > .say .sayer .recover h4,#section > .say .sayer .recover span {
+		font-size:18px;
+	}
+	#section > .namebox h2,#section > .guige dt,#section > .ad dl dd,#section > .detail h1,#section > .guige dd,.joingood > .pay span,.joingood > .colorclassify span,.joingood > .number,.joingood > .colorclassify,.joingood > .pay,.joingood > .numb,.joingood > .number input,.joingood > .numb span {
+		line-height:30px;
+	}
+	#section > .say .sayer p,#section > .say .sayer hgroup h6,#section > .say .sayer h5,#section > .say .nav dl dd {
+		line-height:28px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+

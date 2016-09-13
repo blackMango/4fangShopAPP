@@ -1,0 +1,205 @@
+@charset "utf-8";
+/* CSS Document */
+
+.paypass,.selectcard {
+	width:90%;
+	background-color:#fff;
+	position:fixed;
+	top:20%;
+	left:5%;
+	z-index:9999;
+	box-shadow:1px 1px 1px 1px #ddd;
+	display:none;
+}
+.paypass .money {
+	border-bottom:1px solid #cc4292;	
+}
+.paypass .money img {
+	float:left;
+	height:24px;
+	margin:12px 0px 13px 4px;
+}
+.paypass .money figcaption {
+	float:left;
+	line-height:48px;
+	color:#000;
+	font-size:14px;
+	margin:0px 10px;
+}
+.paypass hgroup h2 {
+	width:100%;
+	margin:10px auto 0px;
+	text-align:center;
+	font-size:14px;
+	color:#000;
+	line-height:28px;
+	font-weight:normal;
+}
+.paypass hgroup h1 {
+	width:100%;
+	margin:0px auto 10px;
+	text-align:center;
+	font-size:16px;
+	color:#cc4292;
+	line-height:28px;
+	font-weight:normal;
+}
+.paypass .card {
+	width:90%;
+	margin:0px 5%;
+	border-bottom:1px dashed #dadada;
+	border-top:1px dashed #dadada;
+}
+.paypass .card figcaption {
+	float:left;
+	margin:0px 10px;
+	font-size:12px;
+	color:#646464;
+	line-height:40px;
+}
+.paypass .card img {
+	float:right;
+	height:20px;
+	margin:10px 0px;
+}
+.paypass .card .cardicon {
+	float:left;
+	height:20px;
+	margin:8px 0px;
+}
+.paypass .pass {
+	width:90%;
+	margin:10px 5% 20px;
+	border:1px solid #dadada;
+	height:40px;
+}
+.paypass .pass input[type = tel] {
+	float:left;
+	width:16.66%;
+	text-align:center;
+	height:40px;
+	line-height:40px;
+	font-size:16px;
+	color:#000;
+	border-right:1px solid #eaeaea;
+}
+.selectcard > h2 {
+	line-height:48px;
+	color:#cc4292;
+	font-size:14px;
+	margin:0px 10px;
+	border-bottom:1px solid #cc4292;	
+}
+.selectcard figure {
+	padding:0px 20px;
+}
+.selectcard figure img {
+	float:left;
+	height:20px;
+	margin:8px 0px;
+}
+.selectcard figure figcaption {
+	float:left;
+	margin:0px 10px;
+	font-size:12px;
+	color:#646464;
+	line-height:40px;
+}
+.selectcard figure input[type = radio] {
+	float:right;
+	height:14px;
+	margin:13px 0px;
+}
+
+
+#section {
+	margin:20px 0px 0px;
+}
+#section > hgroup h2 {
+	width:100%;
+	margin:12px auto 0px;
+	text-align:center;
+	font-size:14px;
+	color:#000;
+	line-height:28px;
+	font-weight:normal;
+}
+#section > hgroup h1 {
+	width:100%;
+	margin:0px auto 10px;
+	text-align:center;
+	font-size:20px;
+	color:#000;
+	line-height:30px;
+}
+
+hr {
+	border-bottom:none;
+	border-top:1px solid #dadada;
+	margin:0px;
+}
+#section > .acept {
+	background-color:#FFF;
+	padding:0px 10px;
+}
+#section > .acept h3 {
+	float:left;
+	font-size:14px;
+	color:#000;
+	line-height:48px;
+	font-weight:normal;
+}
+#section > .acept h4 {
+	float:right;
+	font-size:14px;
+	color:#000;
+	line-height:48px;
+	font-weight:normal;
+}
+
+
+@media (min-width:375px) and (max-width:480px) {
+	.paypass .money figcaption,.paypass hgroup h2,.selectcard > h2,#section > hgroup h2,#section > .acept h3,#section > .acept h4 {
+		font-size:16px;
+	}
+	.selectcard figure figcaption,.paypass .card figcaption {
+		font-size:14px;
+	}
+	.paypass hgroup h1,.paypass .pass input[type = tel] {
+		font-size:18px;
+	}
+	#section > hgroup h1 {
+		font-size:22px;
+	}
+}
+
+@media (min-width:481px) and (max-width:621px) {
+	.paypass .money figcaption,.paypass hgroup h2,.selectcard > h2,#section > hgroup h2,#section > .acept h3,#section > .acept h4 {
+		font-size:18px;
+	}
+	.selectcard figure figcaption,.paypass .card figcaption {
+		font-size:16px;
+	}
+	.paypass hgroup h1,.paypass .pass input[type = tel] {
+		font-size:20px;
+	}
+	#section > hgroup h1 {
+		font-size:24px;
+	}
+}
+
+@media (min-width:622px) {
+	.paypass .money figcaption,.paypass hgroup h2,.selectcard > h2,#section > hgroup h2,#section > .acept h3,#section > .acept h4 {
+		font-size:20px;
+	}
+	.selectcard figure figcaption,.paypass .card figcaption {
+		font-size:18px;
+	}
+	.paypass hgroup h1,.paypass .pass input[type = tel] {
+		font-size:22px;
+	}
+	#section > hgroup h1 {
+		font-size:26px;
+	}
+}
+

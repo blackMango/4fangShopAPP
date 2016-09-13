@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+#section .orderbox {
+	padding:0px 10px;
+	background-color:#FFF;
+}
+#section .protip {
+	padding:8px 10px;
+	background-color:#FFF;
+	margin:10px 0px;
+	font-size:12px;
+	line-height:20px;
+	font-weight:normal;
+}
+#section .orderbox h3 {
+	line-height:36px;
+	color:#000;
+	font-size:14px;
+	padding:0px 0px 0px 10px;
+	font-weight:normal;
+	float:left;
+}
+#section .orderbox p {
+	line-height:36px;
+	color:#cc4292;
+	font-size:14px;
+	float:left;
+}
+
+@media (min-width:375px) and (max-width:480px) {
+	#section .orderbox h3,#section .orderbox p {
+		font-size:16px;
+	}
+	#section .protip {
+		font-size:14px;
+	}
+}
+
+@media (min-width:481px) and (max-width:621px) {
+	#section .orderbox h3,#section .orderbox p {
+		font-size:18px;
+	}
+	#section .protip {
+		font-size:16px;
+	}
+}
+@media (min-width:622px) {
+	#section .orderbox h3,#section .orderbox p {
+		font-size:20px;
+	}
+	#section .protip {
+		font-size:18px;
+	}
+}
+

@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+
+#section {
+	width:93%;
+	margin:10px 3%;
+}
+
+#section a {
+	font-size:12px;
+	line-height:36px;
+	color:#cc4292;
+	float:right;
+}
+#section h5 {
+	font-size:12px;
+	line-height:36px;
+	color:#646464;
+	font-weight:normal;
+	float:left;
+	margin:0px 0px 0px 4px;
+}
+
+
+#section h3 {
+	width:28%;
+	text-align:justify;
+	text-align-last:justify;
+	font-size:16px;
+	line-height:36px;
+	color:#646464;
+	font-weight:normal;
+	float:left;
+}
+#section select {
+	display:inline-block;
+	font-size:14px;
+	width:22%;
+	height:30px;
+	line-height:30px;
+	border:1px solid #dadada;
+	margin:4px 0px 0px;
+}
+#section .marg {
+	margin:4px 1.8% 0px;
+}
+#section input[type = tel],#section input[type = text] {
+	width:72%;
+	height:30px;
+	border:1px solid #dadada;
+	margin:4px 0px;
+	display:inline-block;
+	float:left;
+}
+#section input[type = checkbox] {
+	width:14px;
+	height:14px;
+	margin:10px 0px;
+	display:inline-block;
+	float:left;
+}
+
+
+@media (min-width:375px) and (max-width:480px) {
+	#section h3,#section select,#section input[type = tel],#section input[type = text],#section select {
+		font-size:16px;
+    }
+	#section h5,#section a {
+		font-size:14px;
+	}
+	#section h3 {
+		width:26%;
+	}
+	#section input[type = tel],#section input[type = text] {
+		width:74%;
+	}
+	#section select {
+		width:23%;
+	}
+	#section .marg {
+		margin:6px 1.5% 0px;
+	}
+}
+
+@media (min-width:481px) and (max-width:621px) {
+	  #section h3,#section select,#section input[type = tel],#section input[type = text],#section select {
+		font-size:18px;
+    }
+	#section h5,#section a {
+		font-size:16px;
+	}
+	#section h3 {
+		width:23%;
+	}
+	#section input[type = tel],#section input[type = text] {
+		width:77%;
+	}
+	#section select {
+		width:24%;
+	}
+	#section .marg {
+		margin:6px 1.7% 0px;
+	}
+}
+
+@media (min-width:622px) {
+	#section h3,#section select,#section input[type = tel],#section input[type = text],#section select{
+		font-size:20px;
+    }
+	#section h5,#section a {
+		font-size:18px;
+	}
+	#section h3 {
+		width:20%
+	}
+	#section input[type = tel],#section input[type = text] {
+		width:80%
+	}
+	#section select {
+		width:25%;
+	}
+	#section .marg {
+		margin:6px 1.9% 0px;
+	}
+}
+
+
+
+
+
+
+
+
+

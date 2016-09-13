@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+#section > figure img {
+	width:26%;
+	margin:100px auto 15px;
+}
+#section > figure figcaption {
+	width:100%;
+	color:#646464;
+	font-size:14px;
+	line-height:30px;
+	text-align:center;
+}
+
+@media (min-width:375px) and (max-width:480px) {
+	#section > figure figcaption {
+		font-size:16px;
+	}
+}
+
+@media (min-width:481px) and (max-width:621px) {
+	#section > figure figcaption {
+		font-size:18px;
+	}
+}
+
+@media (min-width:622px) {
+	#section > figure figcaption {
+		font-size:20px;
+	}
+}
+
+
+
+
+
+
+

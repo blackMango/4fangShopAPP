@@ -1,0 +1,240 @@
+@charset "utf-8";
+/* CSS Document */
+.fix {
+	width:100%;
+	position:fixed;
+	top:0%;  
+	left:0%;  
+	z-index:9;  
+}
+#bg{ 
+	display:none;  
+	position:fixed;  
+	top:0%;  
+	left:0%;  
+	width:100%;
+	height:100%;
+	background-color:#666;  
+	z-index:999;  
+	-moz-opacity:0.2;
+	opacity:0.2;  
+	filter:alpha(opacity=20);
+}
+
+.problem {
+	width:100%;
+	padding:20px 10px;
+	background-color:#aaa;
+	position:fixed;
+	bottom:0px;
+	z-index:9999;
+	margin-bottom:-220px;
+}
+.problem h5{
+	width:94%;
+	margin:10px 3%;
+	line-height:32px;
+	color:#fff;
+	font-size:12px;
+	background-color:#cc4292;
+	text-align:center;
+	border-radius:8px;
+	font-weight:normal;
+}
+.problem span h5 {
+	background-color:#fafafa;
+	color:#323232;
+}
+#header > .logo {
+	width:20%;
+	margin:30px auto 20px;
+}
+#header > .logo img {
+	width:100%;
+}
+#header > #nav ul {
+	background-color:#e5e5e5;
+	margin:10px 0px;
+}
+#header > #nav ul li {
+	float:left;
+	text-align:center;
+	width:50%;
+	line-height:32px;
+	color:#323232;
+	font-size:14px;
+}
+#header > #nav ul .current {
+	color:#cc4292;
+	border:1px solid #cc4292;
+}
+#section > .toggle .common .phone,#section > .toggle .tog .password,#section > .toggle .act .phone {
+	width:94%;
+	margin:6px 3%;
+	position:relative;
+}
+#section > .toggle .common .phone h4,#section > .toggle .tog .password h4,#section > .toggle .act .phone h4 {
+	width:19%;
+	float:left;
+	line-height:36px;
+	color:#000;
+	font-size:14px;
+	font-weight:normal;
+}
+#section > .toggle .tog .password span {
+	line-height:36px;
+	color:rgba(0,0,0,0);
+	font-size:14px;
+}
+#section > .toggle .common .phone input[type = tel],#section > .toggle .tog .password input[type = password] {
+	display:inline-block;
+	width:81%;
+	float:right;
+	border:1px solid #dadada;
+	line-height:36px;
+	height:36px;
+	color:#646464;
+	font-size:14px;
+	padding:0px 4px;
+}
+#section > .toggle .act .phone input[type = tel] {
+	display:inline-block;
+	width:43%;
+	float:left;
+	border:1px solid #dadada;
+	line-height:36px;
+	height:36px;
+	color:#646464;
+	font-size:14px;
+	padding:0px 4px;
+}
+#section > .toggle .act .phone span {
+	width:36%;
+	line-height:36px;
+	height:36px;
+	color:#323232;
+	font-size:14px;
+	background-color:#eee;
+	text-align:center;
+	float:right;
+}
+#section > .toggle .common .phone img {
+	display:inline-block;
+	height:24px;
+	position:absolute;
+	top:7px;
+	right:10px;
+	z-index:999;
+}
+#section > .toggle .tog .password .img {
+	position:absolute;
+	top:10px;
+	right:10px;
+	z-index:999;
+}
+#section > .toggle .tog .password img {
+	height:18px;
+}
+#section > .toggle .tog .password img:nth-child(2),#section > .toggle .act {
+	display:none;
+}
+#section > .password .ctrlbox {
+	width:50px;
+	height:24px;
+	border-radius:24px;
+	background-color:#cc4292;
+	padding:2px;
+	float:left;
+	margin:6px 0px;
+}
+.bg {
+	background-color:#999 !important;
+}
+#section > .password .ctrlbox .ctrl:nth-child(1) {
+	width:20px;
+	height:20px;
+	border-radius:32px;
+	background-color:#fff;
+	margin:0px;
+	display:none;
+}
+#section > .password .ctrlbox .ctrl:nth-child(2) {
+	width:20px;
+	height:20px;
+	border-radius:32px;
+	background-color:#fff;
+	margin:0px 0px 0px 26px;
+}
+#section .password p {
+	float:left;
+	line-height:36px;
+	color:#cc4292;
+	font-size:12px;
+	margin:0px 5px;
+}
+#section .password,#section > .pro {
+	width:94%;
+	margin:0px 3%;
+}
+#section > .pro p {
+	width:100%;
+	line-height:22px;
+	color:#646464;
+	font-size:12px;
+	text-align:center;
+	font-weight:normal;
+}
+#section .password a {
+	float:right;
+}
+#section .password h6 {
+	line-height:30px;
+	color:#cc4292;
+	font-size:12px;
+}
+@media (min-width:375px) and (max-width:480px) {
+	#section > .toggle .common .phone h4, #section > .toggle .tog .password h4, #section > .toggle .act .phone h4,#section > .toggle .tog .password span,#section > .toggle .act .phone span,#section > .toggle .common .phone input[type = tel],#section > .toggle .tog .password input[type = password],#section > .toggle .act .phone input[type = tel] {
+		font-size:16px;
+	}
+	#header > #nav ul li,#section .password p,#section > .pro p,#section .password h6,.problem h5 {
+		font-size:14px;
+	}
+}
+@media (min-width:481px) and (max-width:621px) {
+	#section > .toggle .common .phone h4, #section > .toggle .tog .password h4, #section > .toggle .act .phone h4,#section > .toggle .tog .password span,#section > .toggle .act .phone span,#section > .toggle .common .phone input[type = tel],#section > .toggle .tog .password input[type = password],#section > .toggle .act .phone input[type = tel] {
+		font-size:18px;
+	}
+	#header > #nav ul li,#section .password p,#section > .pro p,#section .password h6,.problem h5 {
+		font-size:16px;
+	}
+	#section > .toggle .common .phone h4, #section > .toggle .tog .password h4, #section > .toggle .act .phone h4 {
+		width:16%;
+	}
+	#section > .toggle .common .phone input[type = tel],#section > .toggle .tog .password input[type = password] {
+		width:84%;
+	}
+	#section > .toggle .act .phone input[type = tel] {
+		width:47%;
+	}
+}
+@media (min-width:622px) {
+	#section > .toggle .common .phone h4, #section > .toggle .tog .password h4, #section > .toggle .act .phone h4,#section > .toggle .tog .password span,#section > .toggle .act .phone span,#section > .toggle .common .phone input[type = tel],#section > .toggle .tog .password input[type = password],#section > .toggle .act .phone input[type = tel] {
+		font-size:20px;
+	}
+	#header > #nav ul li,#section .password p,#section > .pro p,#section .password h6,.problem h5 {
+		font-size:18px;
+	}
+	#section > .toggle .common .phone h4, #section > .toggle .tog .password h4, #section > .toggle .act .phone h4 {
+		width:14%;
+	}
+	#section > .toggle .common .phone input[type = tel],#section > .toggle .tog .password input[type = password] {
+		width:86%;
+	}
+	#section > .toggle .act .phone input[type = tel] {
+		width:49%;
+	}
+}
+
+
+
+

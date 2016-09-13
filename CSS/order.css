@@ -1,0 +1,199 @@
+@charset "utf-8";
+/* CSS Document */
+
+#section > #adress {
+	border:1px solid #cc4292;
+	width:94%;
+	margin:10px auto;
+	padding:8px 10px;
+}
+#section > #adress > .hgroup {
+	width:80%;
+	float:left;
+}
+#section > #adress > .hgroup h3 {
+	display:inline-block;
+	font-size:14px;
+	line-height:24px;
+	color:#000;
+}
+#section > #adress > .hgroup h4 {
+	display:inline;
+	font-size:14px;
+	line-height:24px;
+	color:#323232;
+	font-weight:normal;
+}
+#section > #adress img {
+	display:inline-block;
+	height:30px;
+	float:right;
+	margin:22.5px 0px;
+}
+#section > #condition > hgroup {
+	width:96%;
+	margin:0px auto;
+}
+#section > #condition > hgroup h3 {
+	float:left;
+	font-size:14px;
+	line-height:24px;
+	color:#000;
+	font-weight:normal;
+}
+#section > #condition > hgroup h4 {
+	float:left;
+	font-size:14px;
+	line-height:24px;
+	color:#646464;
+	font-weight:normal;
+}
+#section > #condition > hgroup span {
+	font-size:14px;
+	color:#cc4292;
+}
+#section > #condition > hgroup input[type = checkbox] {
+	float:left;
+	width:14px;
+	height:14px;
+	border-radius:14px;
+	margin:5px 6px;
+}
+#section > #condition > hgroup input[type = tel] {
+	float:left;
+	width:100px;
+	line-height:20px;
+	font-size:12px;
+	height:20px;
+	margin:2px 6px;
+	border:1px solid #dadada;
+}
+
+#section > #condition > hgroup select {
+	display:inline-block;
+	width:100px;
+	height:22px;
+	line-height:22px;
+	margin:0px 6px;
+	color:#000;
+	font-size:12px;
+}
+#section > #goods {
+	background-color:#FFF;
+	margin:20px auto;
+}
+#section > #goods > h2 {
+	width:100%;
+	padding:0px 2%;
+	font-size:14px;
+	color:#000;
+	line-height:32px;
+	border-top:1px solid #dadada;
+	border-bottom:1px solid #dadada;
+}
+#section > #goods > figure {
+	border-bottom:1px solid #dadada;
+}
+#section > #goods > figure .img {
+	width:28%;
+	float:left;
+}
+#section > #goods > figure .img img {
+	width:80px;
+	margin:10px auto;
+	border:1px solid #dadada;
+}
+#section > #goods > figure hgroup {
+	float:left;
+	width:72%;
+	padding:10px 2% 0px 0;
+}
+#section > #goods > figure hgroup h3 {
+	font-size:14px;
+	line-height:20px;
+	color:#000;
+	margin:0px 0px 5px;
+	font-weight:normal;
+	height:36px;
+ 	overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+#section > #goods > figure hgroup h4 {
+	font-size:12px;
+	line-height:18px;
+	color:#646464;
+	font-weight:normal;
+}
+#section > #cont {
+	width:96%;
+	margin:0px auto 20px;
+}
+#section > #cont > hgroup h3 {
+	float:left;
+	font-size:14px;
+	line-height:26px;
+	color:#323232;
+	font-weight:normal;
+}
+#section > #cont > hgroup h4 {
+	float:right;
+	font-size:14px;
+	line-height:26px;
+	color:#000;
+	font-weight:normal;
+}
+
+@media (min-width:375px) and (max-width:480px) {
+	#section > #condition > hgroup input[type = tel],#section > #goods > figure hgroup h4,#section > #condition > hgroup select {
+		font-size:14px;
+	}
+	#section > #goods > h2,#section > #condition > hgroup span,#section > #adress > .hgroup h3,#section > #adress > .hgroup h4,#section > #condition > hgroup h3,#section > #condition > hgroup h4,#section > #cont > hgroup h3,#section > #cont > hgroup h4,#section > #goods > figure hgroup h3 {
+		font-size:16px;
+	}
+	#section > #goods > figure .img img {
+		width:88px;
+	}
+}
+@media (min-width:481px) and (max-width:621px) {
+	#section > #condition > hgroup input[type = tel],#section > #goods > figure hgroup h4,#section > #condition > hgroup select {
+		font-size:16px;
+	}
+	#section > #goods > h2,#section > #condition > hgroup span,#section > #adress > .hgroup h3,#section > #adress > .hgroup h4,#section > #condition > hgroup h3,#section > #condition > hgroup h4,#section > #cont > hgroup h3,#section > #cont > hgroup h4 {
+		font-size:18px;
+	}
+	#section > #goods > figure .img img {
+		width:100px;
+	}
+	#section > #goods > figure hgroup h3 {
+		font-size:18px;
+		line-height:22px;
+		height:44px;
+		margin:0px auto 10px;
+	}
+}
+@media (min-width:622px) {
+	#section > #condition > hgroup input[type = tel],#section > #goods > figure hgroup h4,#section > #condition > hgroup select {
+		font-size:18px;
+	}
+	#section > #goods > h2,#section > #condition > hgroup span,#section > #adress > .hgroup h3,#section > #adress > .hgroup h4,#section > #condition > hgroup h3,#section > #condition > hgroup h4,#section > #cont > hgroup h3,#section > #cont > hgroup h4 {
+		font-size:20px;
+	}
+	#section > #goods > figure .img img {
+		width:120px;
+	}
+	#section > #goods > figure hgroup h3 {
+		font-size:20px;
+		line-height:24px;
+		height:48px;
+		margin:0px auto 12px;
+	}
+}
+
+
+
+
+
+

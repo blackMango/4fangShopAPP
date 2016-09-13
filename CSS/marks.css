@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+
+#section > h1 {
+	width:80px;
+	height:80px;
+	border-radius:80px;
+	border:2px solid #cc4292;
+	color:#cc4292;
+	font-size:30px;
+	line-height:80px;
+	text-align:center;
+	margin:30px auto 10px;
+}
+#section > h2 {
+	color:#646464;
+	font-size:16px;
+	line-height:24px;
+	text-align:center;
+	font-weight:normal;
+}
+#section > .detail {
+	width:93%;
+	margin:10px 3%;
+}
+#section > .detail h3 {
+	color:#646464;
+	font-size:16px;
+	line-height:32px;
+	font-weight:normal;
+	border-bottom:1px solid #dadada;
+}
+#section > .detail hgroup {
+	border-bottom:1px solid #dadada;
+	padding:4px 0px;
+}
+#section > .detail h4 {
+	width:80%;
+	float:left;
+	color:#646464;
+	font-size:14px;
+	line-height:32px;
+	font-weight:normal;
+}
+#section > .detail h4 span {
+	color:#646464;
+	font-size:14px;
+	line-height:32px;
+	font-weight:normal;
+}
+#section > .detail h5 {
+	float:right;
+	color:#646464;
+	font-size:14px;
+	line-height:32px;
+	font-weight:normal;
+}
+#section > .detail time {
+	float:right;
+	color:#646464;
+	font-size:12px;
+	line-height:32px;
+	font-weight:normal;
+}
+
+
+
+@media (min-width:375px) and (max-width:480px) {
+	#section > h1 {
+		font-size:32px;
+		width:100px;
+		height:100px;
+		border-radius:100px;
+		line-height:100px;
+	}
+	#section > h2,#section > .detail h3 {
+		font-size:18px;
+	}
+	#section > .detail h4,#section > .detail h4 span,#section > .detail h5 {
+		font-size:16px;
+	}
+	#section > .detail time {
+		font-size:14px;
+	}
+}
+
+@media (min-width:481px) and (max-width:621px) {
+	#section > h1 {
+		font-size:34px;
+		width:120px;
+		height:120px;
+		border-radius:120px;
+		line-height:120px;
+	}
+	#section > h2,#section > .detail h3 {
+		font-size:20px;
+	}
+	#section > .detail h4,#section > .detail h4 span,#section > .detail h5 {
+		font-size:18px;
+	}
+	#section > .detail time {
+		font-size:16px;
+	}
+}
+
+@media (min-width:622px) {
+	#section > h1 {
+		font-size:36px;
+		width:120px;
+		height:120px;
+		border-radius:120px;
+		line-height:120px;
+	}
+	#section > h2,#section > .detail h3 {
+		font-size:22px;
+	}
+	#section > .detail h4,#section > .detail h4 span,#section > .detail h5 {
+		font-size:20px;
+	}
+	#section > .detail time {
+		font-size:18px;
+	}
+}
+
+
+
+
+
+
+

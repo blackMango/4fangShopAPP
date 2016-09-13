@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+#section .border {
+	border:1px solid #cc4292 !important;
+}
+#section .border h6 {
+	border-left:1px solid #cc4292 !important;
+}
+#section #adress,#adressnew {
+	border:1px solid #dadada;
+	width:94%;
+	margin:15px auto;
+	padding:8px 0px 8px 10px;
+}
+#section #adress > .hgroup {
+	width:80%;
+	float:left;
+}
+#section #adress > .hgroup h3 {
+	display:inline-block;
+	font-size:14px;
+	line-height:24px;
+	color:#323232;
+}
+#section #adress > .hgroup h4 {
+	display:inline;
+	font-size:14px;
+	line-height:24px;
+	color:#646464;
+	font-weight:normal;
+}
+#section #adress h6 {
+	width:20%;
+	text-align:center;
+	float:right;
+	font-size:14px;
+	line-height:72px;
+	color:#909090;
+	font-weight:normal;
+	border-left:1px solid #dadada;
+}
+#section #adressnew  p {
+	line-height:60px;
+	font-size:14px;
+	color:#909090;
+	float:left;
+}
+#section #adressnew img {
+	display:inline-block;
+	height:30px;
+	float:right;
+	margin:15px 10px;
+}
+
+@media (min-width:375px) and (max-width:480px) {
+	#section #adress > .hgroup h3,#section #adressnew  p,#section #adress > .hgroup h4,#section #adress h6 {
+		font-size:16px;
+	}
+}
+@media (min-width:481px) and (max-width:621px) {
+	#section #adress > .hgroup h3,#section #adressnew  p,#section #adress > .hgroup h4,#section #adress h6 {
+		font-size:18px;
+	}
+}
+@media (min-width:622px) {
+	#section #adress > .hgroup h3,#section #adressnew  p,#section #adress > .hgroup h4,#section #adress h6 {
+		font-size:20px;
+	}
+}
+
+
+
+
+

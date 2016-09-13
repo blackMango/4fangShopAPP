@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+#section .img {
+	width:40%;
+	border:1px solid #dadada;
+	margin:30px auto 10px;
+	background-color:#FFF;
+}
+#section .img img {
+	width:90%;
+	margin:5%;
+}
+#section .photobox {
+	width:200px;
+	margin:10px auto;
+}
+#section .photobox .photo {
+	float:left;
+	margin:0px 5px;
+}
+#section .photobox .photo img {
+	width:30px;
+	float:left;
+}
+#section .photobox .photo img:nth-child(2) {
+	display:none;
+}
+#section .text {
+	width:88%;
+	margin:20px auto;
+}
+#section .text textarea {
+	display:inline-block;
+	width:100%;
+	height:160px;
+	border:1px solid #dadada;
+	line-height:24px;
+	font-size:14px;
+	text-indent:30px;
+}
+
+@media (min-width:375px) and (max-width:480px) {
+	#section .text textarea {
+		font-size:16px;
+	}
+}
+@media (min-width:481px) and (max-width:621px) {
+	#section .text textarea {
+		font-size:18px;
+	}
+}
+@media (min-width:622px) {
+	#section .text textarea {
+		font-size:20px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+

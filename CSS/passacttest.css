@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+#section {
+	padding:30px 0px 0px;
+}
+#section > h2 {
+	width:94%;
+	margin:10px 3%;
+	border:1px solid #dadada;
+	text-align:center;
+	font-size:14px;
+	color:#323232;
+	line-height:32px;
+	font-weight:normal;
+}
+#section > h2 span {
+	font-size:14px;
+	color:#000;
+}
+#section > .acttest {
+	width:94%;
+	margin:10px 3%;
+}
+#section > .acttest h4 {
+	width:22%;
+	float:left;
+	line-height:32px;
+	color:#000;
+	font-size:14px;
+	font-weight:normal;
+}
+#section > .acttest input[type = tel] {
+	display:inline-block;
+	width:40%;
+	float:left;
+	border:1px solid #dadada;
+	line-height:32px;
+	height:32px;
+	color:#646464;
+	font-size:14px;
+	padding:0px 4px;
+}
+#section > .acttest span {
+	width:36%;
+	line-height:32px;
+	height:32px;
+	color:#323232;
+	font-size:14px;
+	background-color:#eee;
+	text-align:center;
+	float:right;
+}
+@media (min-width:375px) and (max-width:480px) {
+	#section > .acttest h4,#section > h2,#section > h2 span,#section > .acttest input[type = tel],#section > .acttest span {
+		font-size:16px;
+		}
+	#section > .acttest h4 {
+		width:19%;
+	}
+	#section > .acttest input[type = tel] {
+		width:44%;
+	}
+}
+@media (min-width:481px) and (max-width:621px) {
+	#section > .acttest h4,#section > h2,#section > h2 span,#section > .acttest input[type = tel],#section > .acttest span {
+		font-size:18px;
+		}
+	#section > .acttest h4 {
+		width:16%;
+	}
+	#section > .acttest input[type = tel] {
+		width:47%;
+	}
+}
+@media (min-width:622px) {
+	#section > .acttest h4,#section > h2,#section > h2 span,#section > .acttest input[type = tel],#section > .acttest span {
+		font-size:20px;
+		}
+	#section > .acttest h4 {
+		width:14%;
+	}
+	#section > .acttest input[type = tel] {
+		width:49%;
+	}
+}
+

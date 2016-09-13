@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+#section {
+	padding:10px 0px 0px;
+}
+#section > .password {
+	width:94%;
+	margin:8px 3%;
+}
+#section > .password h4 {
+	width:27%;
+	float:left;
+	line-height:32px;
+	color:#000;
+	font-size:14px;
+	font-weight:normal;
+}
+#section > .password input[type = password] {
+	display:inline-block;
+	width:73%;
+	float:right;
+	border:1px solid #dadada;
+	line-height:32px;
+	height:32px;
+	color:#646464;
+	font-size:14px;
+	padding:0px 4px;
+}
+
+@media (min-width:375px) and (max-width:480px) {
+	#section > .password h4,#section > .password input[type = password] {
+		font-size:16px;
+		}
+	#section > .password h4 {
+		width:23%;
+	}
+	 #section > .password input[type = password] {
+		width:77%;
+	}
+}
+@media (min-width:481px) and (max-width:621px) {
+	#section > .password h4,#section > .password input[type = password] {
+		font-size:18px;
+		}
+	#section > .password h4 {
+		width:20%;
+	}
+	#section > .password input[type = password] {
+		width:80%;
+	}
+}
+@media (min-width:622px) {
+	#section > .password h4,#section > .password input[type = password] {
+		font-size:20px;
+		}
+	#section > .password h4 {
+		width:18%;
+	}
+	#section > .password input[type = password] {
+		width:82%;
+	}
+}
+
