@@ -107,7 +107,7 @@
 	left:0px;
 }
 
-#section > .photobox .swipe .img img {
+#section > .photobox .swipe .img .imgbox {
 	float:left;
 }
 
