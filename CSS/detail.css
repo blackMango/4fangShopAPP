@@ -97,20 +97,30 @@
 	width:100%;
 	background-color:#FFF;
 	border:1px solid #dadada;
+	margin:0;
+	padding:0;
 }
 #section > .photobox .swipe {
 	overflow:hidden;
 	visibility: hidden;
+	position:relative;
+	
 }
 #section > .photobox .swipe .img {
 	position:relative;
-	left:0px;
+	overflow:hidden;
 }
 
 #section > .photobox .swipe .img .imgbox {
 	float:left;
+	position:relative;
+	width:100%;
 }
-
+#section > .photobox .swipe .img .imgbox img {
+	display: block; 
+	max-width: 100%;  
+	height: auto;
+}
 #section > .photobox .icons {
 	height:20px;
 	position:absolute;
