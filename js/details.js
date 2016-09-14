@@ -89,16 +89,16 @@ $(function(){
 			$("body").removeClass("fix");
 		}
 	);
-/*	
+	
 	var imgNum = $("#section > .photobox img ").length;
 	var docuWid = $(window).width();
 	var imgBoxWid = docuWid*imgNum + 'px';
 	//console.log(docuWid);
 	
-	$("#section > .photobox .swipe .img").css({"width":imgBoxWid});
-	$("#section > .photobox .swipe .img .imgbox").css({"width":docuWid});
-	var imgMarWid = docuWid*0.05 + 'px';
-
+	$("#section > .photobox .img .imgbox").css({"width":imgBoxWid});
+	$("#section > .photobox .img .imgbox img").css({"width":docuWid});
+	//var imgMarWid = docuWid*0.05 + 'px';
+/*
 	$("#section > .photobox .img img ").css({"width":imgWid,"margin":"20px" + " " + imgMarWid});
 
 	var slider = {
@@ -177,7 +177,7 @@ $(function(){
 
 	var ctrls = document.getElementById('icons').getElementsByClassName('ctrl');
 	
-	var banner = Swipe(document.getElementById('mySwipe'),{
+	var banner = Swipe(document.getElementById('slider'),{
 		continuous: true,
 		disableScroll:false,
 		callback: function(pos) {
