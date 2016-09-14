@@ -101,10 +101,10 @@
 }
 #section > .photobox .img {
 	overflow:hidden;
-	width:100%;
 }
 #section > .photobox .img .imgbox img {
 	float:left;
+	position:relative;
 }
 
 #section > .photobox .icons {
