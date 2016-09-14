@@ -89,6 +89,7 @@ $(function(){
 			$("body").removeClass("fix");
 		}
 	);
+/*	
 	var imgNum = $("#section > .photobox img ").length;
 	var docuWid = $(window).width();
 	var imgBoxWid = docuWid*imgNum + 'px';
@@ -96,8 +97,7 @@ $(function(){
 	
 	$("#section > .photobox .swipe .img").css({"width":imgBoxWid});
 	$("#section > .photobox .swipe .img .imgbox").css({"width":docuWid});
-	$("#section > .photobox .swipe .img .imgbox img").css({"width":'100%'});
-/*	var imgMarWid = docuWid*0.05 + 'px';
+	var imgMarWid = docuWid*0.05 + 'px';
 
 	$("#section > .photobox .img img ").css({"width":imgWid,"margin":"20px" + " " + imgMarWid});
 
