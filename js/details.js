@@ -176,7 +176,7 @@ $(function(){
 */
 
 	var ctrls = document.getElementById('icons').getElementsByClassName('ctrl');
-	alert(ctrls);
+	
 	var banner = Swipe(
 		document.getElementById('slider'),{
 		continuous: true,
@@ -189,6 +189,6 @@ $(function(){
 			ctrls[pos].className = 'ctrl current';
 		}
 	});
-
+alert(ctrls);
 
 })
