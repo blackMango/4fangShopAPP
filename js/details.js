@@ -188,7 +188,8 @@ $(function(){
 			}
 			ctrls[pos].className = 'ctrl current';
 		}
+		alert(ctrls);
 	});
-alert(ctrls);
+
 
 })
