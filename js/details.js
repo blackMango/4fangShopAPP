@@ -176,6 +176,7 @@ $(function(){
 */
 
 	var ctrls = document.getElementById('icons').getElementsByClassName('ctrl');
+	alert(ctrls);
 	var banner = Swipe(
 		document.getElementById('slider'),{
 		continuous: true,
